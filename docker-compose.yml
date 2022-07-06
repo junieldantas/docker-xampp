@@ -1,0 +1,9 @@
+version: "3.9" # optional since v1.27.0
+services:
+  docker-xampp:
+    image: dockerxamp:latest
+    ports:
+      - "41061:22"
+      - "41062:80"
+    volumes:
+      - ./www:/www

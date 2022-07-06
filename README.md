@@ -1,0 +1,1 @@
+docker run --name docker-xampp -p 41061:22 -p 41062:80 -d -v /www:/www dockerxamp:latest
